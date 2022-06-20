@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*
+{
+    margin: 0;
+    transition: 0.1s;
+    font-family: poppins;
+}
+body{
+    font-family: Poppins;
+    background: #f1f0ef;
+    justify-items: center;
+}
+.dark-mode {
+  background-color: rgb(26, 23, 23);
+  color: #ffffff;
+}
+
+
+nav{
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li{
+    margin: 0px 30px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 17px;
+}
+nav ul li:hover{
+    color: #f01fb5;
+}
+
+
+.dark{
+  align-items: flex;
+  display: flex;
+  justify-content: center;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.welcome{
+  align-items: flex;
+  display: flex;
+  justify-content: center;
+  border-left: 5px solid #7a0c59;
+  height: 50px;
+  font-family: 'Pacifico';
+  font-size: 30px;
+}
+
+
+.hi{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Pacifico';
+    font-size: 80px;
+    cursor: pointer;
+}
+.hi:hover{
+    color: #7a0c59;
+}
+.hi1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Poppins';
+    font-size: 100px;
+    cursor: pointer;
+}
+.hi1:hover{
+    color: #7a0c59;
+}
+.pi{
+    text-align: center;
+    border-left: 5px solid #7a0c59;
+    height: 50px;
+}
+
+
+.cards {
+    display: grid;
+    grid: auto auto auto / auto auto auto;
+    grid-gap: 90px;
+    justify-items: center;
+  }
+  .cards > div {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 15px;
+    padding: 40px;
+   
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 200px;
+    border-radius: 10px;
+    
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 8px #7a0c59;
+    cursor: pointer;
+  }
+  
+  .container {
+    padding: 2px 6px;
+    
+  }
+  .img1{
+    width: 200px;
+    height: 200px;  
+    border-radius: 10px;
+  }
+  
+
+
+.pii{
+    font-family: "Pacifico";
+}
+.btn1{
+    padding: 10px 20px;
+    background-color: #7a0c59;
+    cursor: pointer;
+    border-style: solid;
+    border-radius: 6px;
+    color: white;
+    font-family: "Poppins";
+}
+.btn1:hover{
+    padding: 10px 20px;
+    background-color: #0968a0;
+    cursor: pointer;
+    border-style: solid;
+    border-radius: 6px;
+    color: white;
+    font-family: "Poppins";
+    transition: 1s;
+}
+input[type=checkbox] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+}
+input[type=checkbox]:focus {
+  outline: 0;
+}
+
+.toggle {
+  height: 32px;
+  width: 52px;
+  border-radius: 16px;
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  border: 2px solid #474755;
+  background: linear-gradient(180deg, #2D2F39 0%, #1F2027 100%);
+  transition: all 0.2s ease;
+}
+.toggle:after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 1px 2px rgba(44, 44, 44, 0.2);
+  transition: all 0.2s cubic-bezier(0.5, 0.1, 0.75, 1.35);
+}
+.toggle:checked {
+  border-color: #7a0c59;
+}
+.toggle:checked:after {
+  transform: translatex(20px);
+}
+.btn2{
+  padding: 10px 20px;
+  background-color: #7a0c59;
+  cursor: pointer;
+  border-style: solid;
+  border-radius: 6px;
+  color: white;
+  font-family: "Poppins";
+  position: absolute;
+  left: 16px;
+}
+.btn2:hover{
+  padding: 10px 20px;
+  background-color: #0968a0;
+  cursor: pointer;
+  border-style: solid;
+  border-radius: 6px;
+  color: white;
+  font-family: "Poppins";
+  transition: 1s;
+}
+.btn3{
+  padding: 10px 20px;
+  background-color: #7a0c59;
+  cursor: pointer;
+  border-style: solid;
+  border-radius: 6px;
+  color: white;
+  font-family: "Poppins";
+  position: absolute;
+  right: 16px;
+}
+.btn3:hover{
+  padding: 10px 20px;
+  background-color: #0968a0;
+  cursor: pointer;
+  border-style: solid;
+  border-radius: 6px;
+  color: white;
+  font-family: "Poppins";
+  transition: 1s;
+}
+.btns{
+  align-items: flex;
+  display: flex;
+  justify-content: center;
+}
+
+
+.footer-distributed {
+  background-color: rgb(26, 23, 23);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+/* Footer links */
+
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+}
+
+.footer-distributed .footer-right a:hover{
+  transform:scale(1.1); -webkit-transform:scale(1.1);
+  background-color: #7a0c59;
+}
+
+.footer-distributed p.footer-links a:hover{text-decoration:underline;}
+
+/* Media Queries */
+
