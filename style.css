@@ -9,16 +9,13 @@
 
 @font-face {
     font-family: sinhasithumina;
-    src: url(assets/SINHA\ Sithumina\ \(Sinhala\ Font\ Guru\).woff);
+    src: url(SINHA\ Sithumina\ \(Sinhala\ Font\ Guru\).woff);
 }
 @font-face {
     font-family: sinhasamadi;
-    src: url(assets/sinhasamadi.woff);
+    src: url(sinhasamadi.woff);
 }
-@font-face {
-    font-family: gurulugomi;
-    src: url(assets/UN-Gurulugomi.woff);
-}
+
 
 .hero{
     width: 100%;
